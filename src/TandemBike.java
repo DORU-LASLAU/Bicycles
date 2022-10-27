@@ -8,4 +8,7 @@ public class TandemBike extends Bicycle{
             speed = 0;
         }
     }
+    void printStates() {
+        System.out.println("num Seats:" + numSeats);
+    }
 }
